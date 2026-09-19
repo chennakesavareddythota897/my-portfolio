@@ -6,7 +6,7 @@ function Home() {
       alignItems: "center", textAlign: "center", padding: "20px"
     }}>
       <h1 style={{ fontSize: "3rem" }}>
-        Hi, I'm <span style={{ color: "#38bdf8" }}>Chennakesavareddy</span>
+        Hi, I'm <span style={{ color: "#38bdf8" }}>Chennakesavareddy Thota</span>
       </h1>
       <h2 style={{ marginTop: "10px" }}>Full Stack Developer</h2>
       <p style={{ marginTop: "16px", maxWidth: "550px", lineHeight: "1.7" }}>

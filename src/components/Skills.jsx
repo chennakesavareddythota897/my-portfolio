@@ -1,5 +1,5 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaDatabase, FaGitAlt } from "react-icons/fa";
-import { SiFastapi } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaDatabase, FaGitAlt, FaBrain, FaChrome } from "react-icons/fa";
+import { SiFastapi, SiScikitlearn, SiSqlite } from "react-icons/si";
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 /> },
@@ -9,9 +9,12 @@ const skills = [
   { name: "Python", icon: <FaPython /> },
   { name: "FastAPI", icon: <SiFastapi /> },
   { name: "SQL", icon: <FaDatabase /> },
+  { name: "SQLite", icon: <SiSqlite /> },
+  { name: "scikit-learn", icon: <SiScikitlearn /> },
+  { name: "Machine Learning", icon: <FaBrain /> },
+  { name: "Chrome Extensions", icon: <FaChrome /> },
   { name: "Git", icon: <FaGitAlt /> },
 ];
-
 function Skills() {
   return (
     <section id="skills" style={{ padding: "60px 20px", textAlign: "center" }}>
