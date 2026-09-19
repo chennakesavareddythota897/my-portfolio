@@ -1,19 +1,26 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaDatabase, FaGitAlt, FaBrain, FaChrome } from "react-icons/fa";
-import { SiFastapi, SiScikitlearn, SiSqlite } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaDatabase, FaGitAlt, FaGithub, FaBrain, FaChrome } from "react-icons/fa";
+import { SiFastapi, SiScikitlearn, SiSqlite, SiMysql, SiMui, SiBootstrap, SiTailwindcss, SiPostman, SiFigma } from "react-icons/si";
 
 const skills = [
-  { name: "HTML", icon: <FaHtml5 /> },
-  { name: "CSS", icon: <FaCss3Alt /> },
+  { name: "HTML5", icon: <FaHtml5 /> },
+  { name: "CSS3", icon: <FaCss3Alt /> },
   { name: "JavaScript", icon: <FaJs /> },
-  { name: "React", icon: <FaReact /> },
+  { name: "React.js", icon: <FaReact /> },
+  { name: "Material UI", icon: <SiMui /> },
+  { name: "Bootstrap", icon: <SiBootstrap /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "Python", icon: <FaPython /> },
   { name: "FastAPI", icon: <SiFastapi /> },
   { name: "SQL", icon: <FaDatabase /> },
+  { name: "MySQL", icon: <SiMysql /> },
   { name: "SQLite", icon: <SiSqlite /> },
   { name: "scikit-learn", icon: <SiScikitlearn /> },
   { name: "Machine Learning", icon: <FaBrain /> },
   { name: "Chrome Extensions", icon: <FaChrome /> },
   { name: "Git", icon: <FaGitAlt /> },
+  { name: "GitHub", icon: <FaGithub /> },
+  { name: "Postman", icon: <SiPostman /> },
+  { name: "Figma", icon: <SiFigma /> },
 ];
 function Skills() {
   return (

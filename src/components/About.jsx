@@ -6,11 +6,11 @@ function About() {
     }}>
       <h2 style={{ fontSize: "2rem", color: "#38bdf8", marginBottom: "20px" }}>About Me</h2>
       <p style={{ lineHeight: "1.8", fontSize: "1.1rem" }}>
-        I'm Chennakesavareddy Thota, a Full Stack Developer who enjoys building
-        responsive, user-friendly web applications. I work with React, Python,
-        FastAPI and SQL. My projects include an AI Fake Website Detector
-        (Chrome extension with a machine learning backend), a Healthcare Clinic
-        website, a Restaurant website, an E-commerce app and an ATM Simulator.
+        I'm Chennakesava Reddy Thota, a Full Stack Developer with 6 months of internship
+        experience building responsive web applications using React.js, Python and FastAPI.
+        I have hands-on experience with reusable frontend components, RESTful APIs,
+        authentication, CRUD operations and database-driven applications. I hold a B.Tech
+        in Artificial Intelligence and enjoy building scalable end-to-end web apps.
       </p>
     </section>
   );
