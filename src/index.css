@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Navbar links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #38bdf8;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #38bdf8;
+  transition: width 0.3s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Cards (Skills + Projects) */
+.card {
+  border: 1px solid transparent;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+/* Contact buttons */
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #1e293b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid #38bdf8;
+  transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+.contact-btn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-3px);
+}
+
+/* Home hero */
+.hero {
+  background: radial-gradient(circle at top, #1e3a5f 0%, #0f172a 60%);
+}
+.hero h1 {
+  animation: fadeUp 1s ease;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav { padding: 12px 16px !important; }
+  .hero h1 { font-size: 2rem !important; }
+}
