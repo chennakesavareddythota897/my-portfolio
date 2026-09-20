@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaGlobe, FaPhoneAlt } from "react-icons/fa";
 
 const PORTFOLIO_URL = "https://my-portfolio-five-phi-59.vercel.app";
 
@@ -23,6 +23,9 @@ function Contact() {
         </a>
         <a className="contact-btn" href={PORTFOLIO_URL} target="_blank" rel="noreferrer">
           <FaGlobe /> Portfolio
+        </a>
+        <a className="contact-btn" href="tel:+918978354136">
+          <FaPhoneAlt /> 8978354136
         </a>
       </div>
       <p style={{ marginTop: "50px", fontSize: "0.9rem", opacity: 0.7 }}>
