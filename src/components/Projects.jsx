@@ -1,4 +1,5 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import detectorImg from "../assets/detector.png";
 
 const projects = [
   {
@@ -7,6 +8,7 @@ const projects = [
     tech: ["Python", "FastAPI", "scikit-learn", "React", "SQLite"],
     github: "https://github.com/chennakesavareddythota897/AI-Fake-Website-detector",
     live: "",
+    image: detectorImg,
   },
   {
     title: "Healthcare Clinic Website",
@@ -52,6 +54,10 @@ function Projects() {
             background: "#1e293b", padding: "24px", borderRadius: "12px",
             textAlign: "left", display: "flex", flexDirection: "column", gap: "12px"
           }}>
+            {p.image && (
+              <img src={p.image} alt={p.title}
+                style={{ width: "100%", borderRadius: "8px", objectFit: "cover", objectPosition: "top", maxHeight: "320px" }} />
+            )}
             <h3 style={{ color: "#38bdf8" }}>{p.title}</h3>
             <p style={{ lineHeight: "1.6", fontSize: "0.95rem" }}>{p.desc}</p>
             <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
