@@ -21,9 +21,6 @@ function Contact() {
           <FaPhoneAlt /> 8978354136
         </a>
       </div>
-      <p style={{ marginTop: "60px", fontSize: "0.9rem", opacity: 0.6 }}>
-        © 2026 Chennakesavareddy Thota. Built with React
-      </p>
     </section>
   );
 }
